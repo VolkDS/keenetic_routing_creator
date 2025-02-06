@@ -15,3 +15,6 @@ https://treeone.ru/diapazon-ip-adres-facebook-instagram-mikrotik/#comment-6910
 ```bash
 curl https://www.gstatic.com/ipranges/goog.json | jq '.prefixes[].ipv4Prefix' | awk -F\" '{print $2}' | egrep -v "^$" | sort -V > google.txt
 ```
+
+### Discord
+https://github.com/RockBlack-VPN/ip-address/tree/main/Global/Discord
